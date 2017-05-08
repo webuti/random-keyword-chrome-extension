@@ -1,0 +1,13 @@
+{
+  "name": "BP New Tab Page",
+  "description": "Override the new tab page with a blank one",
+  "version": "0.9",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "manifest_version": 2,
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
+}
